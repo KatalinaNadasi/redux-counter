@@ -11,10 +11,6 @@ const mapDispatchToProps = dispatch => ({
 })
 
 
-
-
-
-
 const Counter = ({counter, onAdd, onRemove}) => {
   return (
     <>
