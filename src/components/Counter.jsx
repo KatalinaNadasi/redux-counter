@@ -10,6 +10,11 @@ const mapDispatchToProps = dispatch => ({
   onRemove: () => dispatch({type: 'REMOVE'}),
 })
 
+
+
+
+
+
 const Counter = ({counter, onAdd, onRemove}) => {
   return (
     <>
